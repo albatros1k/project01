@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Nav from './components/Navbar';
-import Profile from './components/Profile';
+import Dialogs from './components/Dialogs/Dialogs';
+import Header from './components/Header/Header';
+import Nav from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 
 
-const App = () => {
+const App = (props) => {
   return (
 <div className = 'app-wrapper'>
   <Header/>
   <Nav/>
-  <Profile/>
+  <div className='app-wrapper_content'>
+  <Dialogs/>
+  </div>
+  {/* <Profile/> */}
 </div>
 
   );

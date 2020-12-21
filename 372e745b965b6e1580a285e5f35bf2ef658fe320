@@ -1,0 +1,23 @@
+[33mcommit 632f5be00991e5ce0c9f19122a6edec240ee3143[m[33m ([m[1;36mHEAD -> [m[1;32mtest[m[33m, [m[1;31morigin/test[m[33m)[m
+Author: Albert <superalbertem@gmail.com>
+Date:   Sun Dec 20 16:42:41 2020 +0300
+
+    Created css modules
+
+[33mcommit 372e745b965b6e1580a285e5f35bf2ef658fe320[m
+Author: Albert <superalbertem@gmail.com>
+Date:   Sun Dec 20 14:24:22 2020 +0300
+
+    Finish app component JSX
+
+[33mcommit e8960d36e4ef5fb8d503db4e4c9a9a9af58de05d[m
+Author: Albert <superalbertem@gmail.com>
+Date:   Sun Dec 20 13:50:37 2020 +0300
+
+    Starting
+
+[33mcommit 7c26a7ee1ce694c5ddc3f09c300775b8736314a9[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Albert <superalbertem@gmail.com>
+Date:   Sat Dec 19 14:51:37 2020 +0300
+
+    Initialize project using Create React App
