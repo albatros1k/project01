@@ -4,3 +4,10 @@ img {
   height: 50vh;
 }
 
+.bg{
+  background: url(https://wallpaperaccess.com/full/19922.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}

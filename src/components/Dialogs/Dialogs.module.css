@@ -1,0 +1,20 @@
+.dialogs{
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+	font-size: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dialogItems{
+	color: #fff;
+	padding: 10px;
+}
+.dialogItem{
+	margin: 0px 0px 10px 0px;
+}
+.messages{
+	color: #fff;
+padding: 10px;
+}
+.message{
+margin: 0px 0px 10px 0px;
+}

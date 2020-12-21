@@ -1,9 +1,11 @@
 
 .header{
   grid-area: h;
-  background-color: green;
+  background: url(https://i.pinimg.com/originals/f4/5b/23/f45b23a2c3e15f7aa622655e2f7e3d0e.png) 0 0 repeat;
 }
 .header img{
   width: 100px;
   height: 100px;
+  display: flex;
+  margin: 0px 0px 0px 5%;
 }
