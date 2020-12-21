@@ -1,15 +1,11 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 const Profile = () =>{
 	return (
   <div className ={s.bg}>
-    <div>
-      <img src="https://content.presspage.com/uploads/2379/1920_ocean-sunset-195865.jpg?10000"/>
-    </div>
-    <div>
-      ava + description
-    </div>
+    <ProfileInfo/>
     <MyPosts/>
     </div>
 	)

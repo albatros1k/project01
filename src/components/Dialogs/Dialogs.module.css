@@ -8,6 +8,9 @@
 	color: #fff;
 	padding: 10px;
 }
+.dialogItems a{
+	color: #fff;
+}
 .dialogItem{
 	margin: 0px 0px 10px 0px;
 }

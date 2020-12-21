@@ -6,7 +6,12 @@
 .item{
   font-size: 20px;
   margin: 0px 0px 20px 0px;
-  color:red;
+}
+.item a{
+  color: #fff;
+}
+.item a:hover{
+  text-decoration: underline;
 }
 .item a.activeLink{
   color: gold;

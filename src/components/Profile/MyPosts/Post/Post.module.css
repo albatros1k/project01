@@ -1,6 +1,7 @@
 
 .item{
   color: yellowgreen;
+  padding: 30px;
 }
 .item img{
   max-width: 100px;
