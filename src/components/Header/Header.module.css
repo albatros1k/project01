@@ -1,9 +1,9 @@
-
-.header{
+.header {
   grid-area: h;
-  background: url(https://i.pinimg.com/originals/f4/5b/23/f45b23a2c3e15f7aa622655e2f7e3d0e.png) 0 0 repeat;
+  background: url(https://i.pinimg.com/originals/f4/5b/23/f45b23a2c3e15f7aa622655e2f7e3d0e.png)
+    0 0 repeat;
 }
-.header img{
+.header img {
   width: 100px;
   height: 100px;
   display: flex;

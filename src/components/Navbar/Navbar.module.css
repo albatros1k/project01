@@ -1,18 +1,19 @@
-.nav{
-  grid-area:n;
- background: url(https://image.shutterstock.com/mosaic_250/64397/238992952/stock-photo-glitter-vintage-lights-background-dark-gold-and-black-defocused-238992952.jpg) 0 0 repeat;
+.nav {
+  grid-area: n;
+  background: url(https://image.shutterstock.com/mosaic_250/64397/238992952/stock-photo-glitter-vintage-lights-background-dark-gold-and-black-defocused-238992952.jpg)
+    0 0 repeat;
   padding: 30px;
 }
-.item{
+.item {
   font-size: 20px;
   margin: 0px 0px 20px 0px;
 }
-.item a{
+.item a {
   color: #fff;
 }
-.item a:hover{
+.item a:hover {
   text-decoration: underline;
 }
-.item a.activeLink{
+.item a.activeLink {
   color: gold;
 }
