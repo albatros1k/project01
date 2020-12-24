@@ -22,3 +22,54 @@
 .message {
   margin: 0px 0px 10px 0px;
 }
+.button {
+  width: 100px;
+  margin: 0px 0px 0px 30px;
+  transition: all 0.5s ease 0s;
+}
+.button:hover {
+  background-image: linear-gradient(
+    to left top,
+    #8b0853,
+    #731f57,
+    #5c2954,
+    #472d4d,
+    #372d40,
+    #3d3a4d,
+    #434759,
+    #4a5465,
+    #547a94,
+    #51a3be,
+    #4dcfde,
+    #5ffbf1
+  );
+  border: 1px solid #000;
+}
+.sendform {
+  display: flex;
+  padding: 30px;
+}
+.textarea {
+  transition: all 0.3s ease 0s;
+}
+.textarea:focus {
+  background-image: linear-gradient(
+    to left top,
+    #8b0853,
+    #731f57,
+    #5c2954,
+    #472d4d,
+    #372d40,
+    #3d3a4d,
+    #434759,
+    #4a5465,
+    #547a94,
+    #51a3be,
+    #4dcfde,
+    #5ffbf1
+  );
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #000;
+}

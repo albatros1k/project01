@@ -31,6 +31,7 @@ const Nav = () => {
           </NavLink>
         </li>
       </ul>
+
     </nav>
   );
 };
