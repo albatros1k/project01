@@ -67,7 +67,8 @@ let store = {
       this._state.profilePage.newPostText = action.newText;
       this._callSubscriber(this._state);
     } else if (action.type === UPDATE_NEW_MESSAGE_BODY){
-      this._state.dialogsPage.newMessageBody = action.body
+      this._state.dialogsPage.newMessageBody = action.body;
+      this._callSubscriber(this._state)
     } else if (action.type === SEND_MESSAGE){
       let body = this._state.dialogsPage.newMessageBody;
       this._state.dialogsPage.newMessageBody = '';
