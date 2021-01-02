@@ -11,6 +11,11 @@ const Nav = () => {
           </NavLink>
         </li>
         <li className={s.item}>
+          <NavLink to="/users" activeClassName={s.activeLink}>
+            Users
+          </NavLink>
+        </li>
+        <li className={s.item}>
           <NavLink to="/dialogs" activeClassName={s.activeLink}>
             Messages
           </NavLink>
@@ -31,7 +36,6 @@ const Nav = () => {
           </NavLink>
         </li>
       </ul>
-
     </nav>
   );
 };
