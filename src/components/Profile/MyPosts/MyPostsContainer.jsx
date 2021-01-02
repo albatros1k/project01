@@ -1,12 +1,9 @@
-import React from "react";
 import { connect } from "react-redux";
-import store, {
+import {
   addPostActionCreator,
   updateNewPostTextActionCreator,
 } from "../../../redux/store";
-import Dialogs from "../../Dialogs/Dialogs";
 import MyPosts from "./MyPosts";
-
 
 let mapStateToProps = (state) => {
   return {
@@ -18,10 +15,10 @@ let mapDispatchToProps = (dispatch) => {
   return {
     updateNewPostText: (text) => {
       let action = updateNewPostTextActionCreator(text);
-      store.dispatch(action);
+      dispatch(action);
     },
     addPost: () => {
-      store.dispatch(addPostActionCreator());
+      dispatch(addPostActionCreator());
     },
   };
 };
