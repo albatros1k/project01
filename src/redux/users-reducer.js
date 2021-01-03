@@ -41,7 +41,7 @@ let initialState = {
       location: { city: "Zaporizhya", country: "Ukraine" },
     },
   ],
-};
+};  
 
 const usersReducer = (state = initialState, action) => {
   switch (action.type) {

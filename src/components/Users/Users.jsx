@@ -1,7 +1,11 @@
+import * as axios from "axios";
 import React from "react";
 import s from "./Users.module.css";
+import userPhoto from "../../assets/images/user.png";
 
 const Users = (props) => {
+
+
   return (
     <div className={s.users}>
       {props.users.map((u) => (
