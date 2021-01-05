@@ -34,3 +34,20 @@
   font-size: 15px;
   padding: 0px 0px 0px 10px;
 }
+.pages{
+  position: absolute;
+  left: 340px;
+  top: 60px;
+}
+.pages span{
+  color: #fff;
+  margin: 0px 10px 0px 0px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+span.selectedPage{
+  color: #000;
+  font-size: 18px;
+}
